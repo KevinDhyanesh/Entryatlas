@@ -24,13 +24,14 @@ A campus entrance guide designed to help visitors, especially disabled visitors,
 
 ## App preview
 
-![EntryAtlas directory with the North Library profile and entrance information](docs/entryatlas-app-preview.png)
+![EntryAtlas directory with the North Library profile and entrance information](images1.png)
 
 *The campus, building images, and entrance statuses shown here are fictional demonstration content.*
 
 ![North Library after demo review, with Step-free access reported and the reviewer inbox visible](docs/entryatlas-review-state.png)
 
 *After demo review: the accepted Step-free access report is shown as Reported; the inbox also shows a rejected report.*
+
 ## Visitor workflow
 
 1. **Find a building** by searching the directory.
@@ -119,6 +120,7 @@ The current goal is to demonstrate how visitors might find entrance information 
 ## Project structure
 
 ```text
+images1.png                  Main app preview
 src/
   App.tsx                    Main directory, building profile, and demo review flow
   components/
@@ -132,6 +134,7 @@ public/
   entryatlas-logo.jpeg       Project logo
   manus-routes.json          Preview route configuration
 docs/
+  entryatlas-review-state.png Review-state screenshot
 ```
 
 ## Build check
