@@ -68,16 +68,12 @@ There is no application server or shared database. Data saved in one browser is 
 
 ## Technology stack
 
-| Layer | Technology |
-|---|---|
-| UI | React 19, TypeScript |
-| Development and build | Vite 8 |
-| Styling | CSS |
-| Icons | Tabler Icons |
-| Demo report storage | Browser `localStorage` |
-| Package manager | pnpm |
-</details>
-
+- **UI:** React 19 and TypeScript
+- **Development and build:** Vite 8
+- **Styling:** CSS
+- **Icons:** Tabler Icons
+- **Demo report storage:** Browser `localStorage`
+- **Package manager:** pnpm
 ## Run locally
 
 **Requirements:** Node.js and pnpm. The repository declares pnpm `11.25.0` as its package manager.
