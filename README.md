@@ -66,6 +66,8 @@ There is no application server or shared database. Data saved in one browser is 
 <details>
 <summary><b>Technology stack</b></summary>
 
+## Technology stack
+
 | Layer | Technology |
 |---|---|
 | UI | React 19, TypeScript |
@@ -74,7 +76,6 @@ There is no application server or shared database. Data saved in one browser is 
 | Icons | Tabler Icons |
 | Demo report storage | Browser `localStorage` |
 | Package manager | pnpm |
-
 </details>
 
 ## Run locally
