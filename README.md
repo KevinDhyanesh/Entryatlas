@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="public/entryatlas-logo.jpeg" alt="EntryAtlas campus atlas logo" width="112" />
 
 # EntryAtlas
 
