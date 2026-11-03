@@ -30,10 +30,9 @@ A campus entrance guide designed to help visitors, especially disabled visitors,
 
 *The campus, building images, and entrance statuses shown here are fictional demonstration content.*
 
-![North Library after demo review, with Step-free access reported and the reviewer inbox visible](docs/entryatlas-review-state.png)
+![North Library after demo review, with Step-free access reported and the reviewer inbox visible](images2.png)
 
 *After demo review: the accepted Step-free access report is shown as Reported; the inbox also shows a rejected report.*
-
 ## Visitor workflow
 
 1. **Find a building** by searching the directory.
@@ -120,6 +119,7 @@ The current goal is to demonstrate how visitors might find entrance information 
 
 ```text
 images1.png                  Main app preview
+images2.png                  Review-state screenshot
 src/
   App.tsx                    Main directory, building profile, and demo review flow
   components/
@@ -133,7 +133,6 @@ public/
   entryatlas-logo.jpeg       Project logo
   manus-routes.json          Preview route configuration
 docs/
-  entryatlas-review-state.png Review-state screenshot
 ```
 
 ## Build check
@@ -143,6 +142,15 @@ pnpm build
 ```
 
 This runs the TypeScript check and creates the production bundle in `dist/`.
+
+
+
+
+
+
+
+
+
 
 
 
