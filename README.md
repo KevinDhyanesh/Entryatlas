@@ -1,8 +1,12 @@
 <div align="center">
 
+<img src="public/entryatlas-logo.jpeg" alt="EntryAtlas campus atlas logo" width="112" />
+
 # EntryAtlas
 
 **Know the entrance before you arrive.**
+
+Made by Kevin Dhyanesh V.R.
 
 A campus entrance guide designed to help visitors, especially disabled visitors, understand what is known about a building before they set out.
 
@@ -63,17 +67,17 @@ flowchart LR
 
 There is no application server or shared database. Data saved in one browser is not available to other visitors or reviewers.
 
-<details>
-<summary><b>Technology stack</b></summary>
-
 ## Technology stack
 
-- **UI:** React 19 and TypeScript
-- **Development and build:** Vite 8
-- **Styling:** CSS
-- **Icons:** Tabler Icons
-- **Demo report storage:** Browser `localStorage`
-- **Package manager:** pnpm
+| Layer | Technology |
+|---|---|
+| UI | React 19, TypeScript |
+| Development and build | Vite 8 |
+| Styling | CSS |
+| Icons | Tabler Icons |
+| Demo report storage | Browser `localStorage` |
+| Package manager | pnpm |
+
 ## Run locally
 
 **Requirements:** Node.js and pnpm. The repository declares pnpm `11.25.0` as its package manager.
@@ -139,7 +143,6 @@ pnpm build
 ```
 
 This runs the TypeScript check and creates the production bundle in `dist/`.
-
 
 
 
